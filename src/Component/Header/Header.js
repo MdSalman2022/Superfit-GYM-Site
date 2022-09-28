@@ -7,8 +7,8 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <h3 className=''>SuperFit <FontAwesomeIcon icon={faDumbbell} /></h3>
-            <p>Select Today's Excercise</p>
+            <h3 className='text-3xl font-semibold'><FontAwesomeIcon icon={faDumbbell} /> SuperFit</h3>
+            <p className='text-xl'>Select Today's Excercise</p>
         </div>
     );
 };
