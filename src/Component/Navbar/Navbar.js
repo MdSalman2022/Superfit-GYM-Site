@@ -21,6 +21,7 @@ const Navbar = () => {
     }
 
     let total = 0;
+    let toast;
 
 
     const toastClick = () => {
