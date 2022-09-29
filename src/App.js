@@ -3,7 +3,7 @@ import './App.css';
 import Content from './Component/Content/Content';
 import FAQ from './Component/FAQ/FAQ';
 import Header from './Component/Header/Header';
-// import { Navbar } from './Component/Navbar/Navbar';
+import { Navbar } from './Component/Navbar/Navbar';
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         </div>
 
         <div className=" col-span-1">
-          {/* <Navbar></Navbar> */}
+          <Navbar></Navbar>
         </div>
       </div>
 
