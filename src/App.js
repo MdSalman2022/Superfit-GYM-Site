@@ -1,26 +1,20 @@
 
 import './App.css';
-import Card from './Component/Card/Card';
+import Content from './Component/Content/Content';
 import Header from './Component/Header/Header';
 import Navbar from './Component/Navbar/Navbar';
 
 
 function App() {
   return (
-    <div className="App bg-info ">
+    <div className="App  ">
 
       <div className="grid grid-cols-4 gap-5">
         <div className="col-span-3 m-20">
           <Header></Header>
           <br />
-          <div className='grid grid-cols-3 gap-5'>
-            <Card></Card>
-            <Card></Card>
-            <Card></Card>
-            <Card></Card>
-            <Card></Card>
-            <Card></Card>
-          </div>
+          <Content></Content>
+
         </div>
 
         <div className=" col-span-1">

@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "image" : "https://i.ibb.co/Jj15fwg/pushup.jpg",
+        "name": "Push Ups",
+        "details": "This exercise is great for strengthening the chest, shoulders and the triceps",
+        "age": "20 - 30",
+        "time": 30
+    },
+    {
+        "id": "2",
+        "image" : "https://i.ibb.co/2FQ4Pvp/dumbel.png",
+        "name": "Dumbbell rows",
+        "details": "Dumbbell rows can strengthen the back and increase muscle growth.",
+        "age": "20 - 25",
+        "time": 40
+    },
+    {
+        "id": "3",
+        "image" : "https://i.ibb.co/SmfRdsR/crow.jpg",
+        "name": "Crow Stand",
+        "details": "The Crow Stand is a yoga pose that improves balance and can help build wrist, arm, and core strength.",
+        "age": "25 - 30",
+        "time": 20
+    },
+    {
+        "id": "4",
+        "image" : "https://i.ibb.co/HB55c5W/swimming.jpg",
+        "name": "Swimming",
+        "details": "Swimming uses almost all the muscle groups but is a low impact exercise.",
+        "age": "20 - 40",
+        "time": 120
+    },
+    {
+        "id": "5",
+        "image" : "https://i.ibb.co/jMN6txr/triceps.png",
+        "name": "Triceps Dips",
+        "details": "Doing triceps dips are a good way to improve your upper arms strength using only your own body weight.",
+        "age": "20 - 30",
+        "time": 30
+    },
+    {
+        "id": "6",
+        "image" : "https://i.ibb.co/Jz9MCzw/shoulder.jpg",
+        "name": "Shoulder Stand",
+        "details": "Inversion postures are great for relaxation, blood flow, and gaining a new perspective",
+        "age": "20 - 30",
+        "time": 20
+    },
+    {
+        "id": "7",
+        "image" : "https://i.ibb.co/z2k8x76/planks.jpg",
+        "name": "Side planks",
+        "details": "Side planks help build core strength, which can help reduce lower back pain.",
+        "age": "20 - 30",
+        "time": 25
+    },
+    {
+        "id": "8",
+        "image" : "https://i.ibb.co/TYZ3KPS/running.jpg",
+        "name": "Running",
+        "details": "Running is a form of aerobic exercise, and it can help improve cardiovascular fitness and bone strength. ",
+        "age": "20 - 35",
+        "time": 60
+    },
+    {
+        "id": "9",
+        "image" : "https://i.ibb.co/4mYy0rF/Lunges.png",
+        "name": "Lunges",
+        "details": "This exercise is great for strengthening and toning the quadriceps, glutes and hamstrings.",
+        "age": "20 - 30",
+        "time": 30
+    }
+]

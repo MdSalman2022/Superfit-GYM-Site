@@ -1,17 +1,22 @@
 import React from 'react';
+import './Card.css'
 
-const Card = () => {
+const Card = (props) => {
+    const { image, name, details, age, time } = props.card;
+    console.log(image);
     return (
         <div>
-            <div className="card w-96 bg-base-100 shadow-xl">
-                <figure className="px-10 pt-10">
-                    <img src="https://placeimg.com/400/225/arch" alt="Shoes" className="rounded-xl" />
+            <div className="card w-full h-full bg-slate-900 shadow-xl">
+                <figure className="px-5 pt-5">
+                    <img src={image} alt="Shoes" className="rounded-xl w=full h-full" />
                 </figure>
-                <div className="card-body items-center text-center">
-                    <h2 className="card-title">Shoes!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div className="card-actions">
-                        <button className="btn btn-primary">Buy Now</button>
+                <div className="card-body ">
+                    <h2 className="card-title">{name}</h2>
+                    <p>{details}</p>
+                    <strong>For Age: {age}</strong>
+                    <strong>Time required:{time}s</strong>
+                    <div className="card-actions ">
+                        <button className="btn bg-slate-800 w-full">Add to list</button>
                     </div>
                 </div>
             </div>
