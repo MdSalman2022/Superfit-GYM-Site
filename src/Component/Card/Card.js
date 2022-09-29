@@ -1,14 +1,37 @@
-import React from 'react';
-import { addTime } from '../Navbar/Navbar';
+import React, { useState } from 'react';
+// import { addTime } from '../Navbar/Navbar';
 import './Card.css'
 
 const Card = (props) => {
-    const { image, name, details, age, time, id } = props.card;
-    const addExcercise = (props) => {
-        console.log(props.time)
-        addTime(props.time)
+    const { image, name, details, age, time } = props.card;
+    // const addExcercise = (props) => {
+    //     console.log(props.time)
+    //     // addTime(props.time)
+
+    // }
+
+    // let [exerciseTime, setExerciseTime] = useState(0)
+
+
+    // useEffect(() => {
+    //     const newexcercisetime = parseInt(localStorage.getItem("key"))
+    //     setExerciseTime(newexcercisetime)
+    // }, [])
+
+    let totaltime = 0;
+    const exerciseTimeFunc = (time) => {
+        localStorage.setItem("exerciseTime", time)
+        let newtime = localStorage.getItem("exerciseTime")
+        totaltime = totaltime + parseInt(newtime)
+        localStorage.setItem("totaltime", totaltime)
+        console.log(totaltime)
+
 
     }
+
+
+
+
     return (
 
 
@@ -23,7 +46,7 @@ const Card = (props) => {
                     <strong>For Age: {age}</strong>
                     <strong>Time required:{time}s</strong>
                     <div className="card-actions ">
-                        <button onClick={() => addExcercise({ time })} className="btn bg-slate-800 w-full">Add to list</button>
+                        <button onClick={() => exerciseTimeFunc(time)} className="btn bg-slate-800 w-full">Add to list</button>
                     </div>
                 </div>
             </div>
